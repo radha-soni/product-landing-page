@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="\css\style.css" />
+    <title>Product landing page</title>
+  </head>
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header id="header">
+      <img id="header-img" src="original_trombones.jpg" />
+      <nav id="nav-bar">
+        <a href="#Features-list" class="nav-link">Features</a>
+        <a href="#video" class="nav-link">How it works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+      </nav>
+    </header>
+    <section>
+      <h2>Handcrafted, home-made masterpieces</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Enter your email here"
+          required
+        />
+        <input
+          id="submit"
+          type="submit"
+          value="Submit"
+          formaction="https://www.freecodecamp.com/email-submit"
+        />
+      </form>
+      <div id="Features-list">
+        <div class="flex-container">
+          <div class="icon-one">
+            <i
+              class="fa fa-fire fa-3x"
+              aria-hidden="true"
+              id="add-pad-icon"
+            ></i>
+          </div>
+          <div class="header-para-two">
+            <h2>Premium Materials</h2>
+            <p>
+              Our trombones use the shiniest brass which is sourced locally.
+              This will increase the longevity of your purchase.
+            </p>
+          </div>
+        </div>
+        <div class="flex-container">
+          <div class="icon-one">
+            <i class="fa fa-truck fa-3x" aria-hidden="true"></i>
+          </div>
+          <div class="header-para-two">
+            <h2>Fast Shipping</h2>
+            <p>
+              We make sure you recieve your trombone as soon as we have finished
+              making it. We also provide free returns if you are not satisfied.
+            </p>
+          </div>
+        </div>
+        <div class="flex-container">
+          <div class="icon-one">
+            <i class="fa fa-battery-full fa-3x" aria-hidden="true"></i>
+          </div>
+          <div class="header-para-two">
+            <h2>Quality Assurance</h2>
+            <p>
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="video-iframe">
+        <iframe id="video" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+        </iframe>
+      </div>
+      <div class="flex-container-second" id="pricing">
+        <div class="how-it-works-features">
+          <h4 class="how-it-works-features-h4">TENOR TROMBONE</h4>
+          <h3>$600</h3>
+          <p>
+            Lorem ipsum.<br />
+            Lorem ipsum.<br />
+            Lorem ipsum dolor.<br />
+            Lorem ipsum.
+          </p>
+          <button id="flex-select-btn" type="submit">Select</button>
+        </div>
+        <div class="how-it-works-features" id="feature-btw-space">
+          <h4 class="how-it-works-features-h4">BASS TROMBONE</h4>
+          <h3>$900</h3>
+          <p>
+            Lorem ipsum.<br />
+            Lorem ipsum.<br />
+            Lorem ipsum dolor.<br />
+            Lorem ipsum.
+          </p>
+          <button id="flex-select-btn" type="submit">Select</button>
+        </div>
+        <div class="how-it-works-features">
+          <h4 class="how-it-works-features-h4">VALVE TROMBONE</h4>
+          <h3>$1200</h3>
+          <p>
+            Lorem ipsum.<br />
+            Lorem ipsum.<br />
+            Lorem ipsum dolor.<br />
+            Lorem ipsum.
+          </p>
+          <button id="flex-select-btn" type="submit">Select</button>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <a href="#" class="footer-link">Privacy</a>
+      <a href="#" class="footer-link">Terms</a>
+      <a href="#" class="footer-link">Contact</a>
+    </footer>
+    <div id="footer-copyright">
+      <p>Copyright 2016, Original Trombones</p>
+    </div>
+  </body>
+</html>
